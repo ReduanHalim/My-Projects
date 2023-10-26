@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
     font-family: 'Crimson Text', sans-serif ;
 }
 
@@ -25,10 +24,28 @@ header {
     box-shadow: 0 2px 2px #3a3a3a; 
 }
 
+header a {
+    text-decoration: none;
+    color:black
+}
 h1 {
-    color: antiquewhite;
+    color: antiquewhite; 
 }
 
 main {
     flex: 1 0 auto;
+}
+
+#menu {
+    font-size: large;
+    list-style-type: none; 
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    
+}
+
+.home {
+    border: outset 4px black;
 }
