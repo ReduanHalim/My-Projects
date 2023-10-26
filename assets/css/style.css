@@ -34,6 +34,7 @@ h1 {
 
 main {
     flex: 1 0 auto;
+    background-color: aqua;
 }
 
 #menu {
@@ -47,5 +48,19 @@ main {
 }
 
 .home {
-    border: outset 4px black;
+    border: outset 3px black;
+}
+
+nav {
+    position: absolute;
+    background-color: rgb(92, 73, 49);
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+}
+
+footer {
+
 }
