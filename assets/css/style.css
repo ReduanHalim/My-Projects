@@ -38,6 +38,7 @@ h1 {
 main {
     flex: 1 0 auto;
     background-color: aqua;
+    margin-top: 50px;
 }
 
 #menu {
