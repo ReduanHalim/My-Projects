@@ -73,8 +73,17 @@ nav {
     font-size: 2rem;
 }
 
-footer {
-
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#social-networkds i {
+    font-size: 200%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 @media screen and (min-width: 768px) {
